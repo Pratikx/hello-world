@@ -5,5 +5,6 @@ From tomcat:8-jre8
 MAINTAINER "stronger-than-world"
 
 #Copy War to Webapps
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY ./webapp/target/webapp.war /usr/local/tomcat/webapps
 
+#This is end of script
